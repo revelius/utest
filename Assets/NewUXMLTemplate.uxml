@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="GameTitle" style="background-color: rgba(0, 0, 0, 0.494); -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: upper-center; font-size: 33px;"/>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; height: initial; position: absolute; right: 20px; bottom: 50px;">
+        <ui:Button text="Button" name="Btn1" style="width: 100px;"/>
+        <ui:Button text="Button" name="Btn2"/>
+    </ui:VisualElement>
+</ui:UXML>
